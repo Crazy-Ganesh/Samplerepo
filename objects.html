@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<title>
+    Objects
+</title>
+</head>
+<body>
+    <script>
+        const product={name:'socks',price:100};
+        console.log(product);
+        product.name='Silver';
+        console.log(product);
+        product.customername='Ganesh';
+        console.log(product);
+        delete product.price;
+        console.log(product);
+        const product2={
+            ['name']:'Cricket Bat',
+            ['delivery-time']:'2 Days'
+        }
+        console.log(product2);
+        console.log(JSON.stringify(product2));
+        console.log(JSON.parse(JSON.stringify(product2)));
+
+        // const product={name:'bureau',price:23000};
+        // console.log(product);
+        // // product.name='Steel bureau';
+        // // console.log(product);
+        // // delete product.price;
+        // // //console.log(product);
+        // // //console.log(typeof product);
+        // // product.name='GANESH';
+        // // console.log(product);
+ 
+    </script>
+</body>
